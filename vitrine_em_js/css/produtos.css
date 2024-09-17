@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+.links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.links li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.links li a:hover {
+    color: #007bff;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-info {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-info h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.product-info p {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.size-selector {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.size-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.size-button:hover {
+    background-color: #0056b3;
+}
+
+.color-selector {
+    margin-bottom: 20px;
+}
+
+.color-selector label {
+    display: inline-block;
+    margin-right: 10px;
+    color: #333;
+}
+
+.color-selector select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #666;
+}
+
+.add-to-cart-btn {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #218838;
+}
+
+footer {
+    background-color: #f9f9f9;
+    padding: 20px 0;
+    text-align: center;
+    color: #666;
+    margin-top: 50px;
+}
+
+footer a {
+    color: #666;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #333;
+}
+/*botao da cor*/
+
+
+.color-selector {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Define o layout do grid com um número automático de colunas */
+    gap: 10px; /* espaco entre os botões */
+    max-width: 400px; /* Defina uma largura máxima dos botões */
+}
+
+
+.color-button:hover {
+    background-color: #f0f0f0;
+}
+
+.selected {
+    background-color: #f0f0f0;
+}

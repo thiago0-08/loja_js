@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Loja</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/carrossel.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script></head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <img src="./img/logo.png" alt="Logo">
+        </div>
+        <ul class="links">
+            <li><a href="#">Início</a></li>
+            <li><a href="./car_teste/car.html">Masculino</a></li>
+            <li><a href="./relogios/relogio.html">Relogios</a></li>
+            <li><a href="#">Contatos</a></li>
+        </ul>
+        <!-- Barra de pesquisa -->
+        <input id="searchbar" type="text" name="searchbar" placeholder="Search">
+        <div class="carrinho">
+            <a href="./carrinho/carrinho.html"><img src="./img/carrinho.png" alt="Carrinho"></a>
+        </div>
+    </nav>
+
+
+  
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/capa.promo_tenis.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/capa.promo_relogio.png" class="d-block w-100" alt="...">
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+<!-- Carrossel fim -->
+
+    <!-- Produtos -->
+    <div class="container">
+        <!-- Cards superiores -->
+        <h2 class="section-title">Produtos em Destaque</h2>
+
+
+        <div class="card-container">
+            <!-- Card 1 -->
+            <div class="card">
+                <a href="#"> 
+                   
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/tenis01/tenis_laranja.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/tenis01/tenis_verde.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    
+                </div>
+            </div>
+        </a>
+            <!---->
+            <div class="card-info">
+              <h3>TÊNIS MASCULINO BEGIN</h3>
+              <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+              <p class="product-price"><span>R$</span> 279,90 </p>
+              <a href="produtos.html" onclick="showProduct(1)">informações</a>
+          </div>
+        </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+                <a href="#">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./img/tenis02/tenis_branco.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/tenis02/tenis_cinza.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/tenis02/tenis_marrom.webp" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/tenis02/tenis_preto.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <div class="card-info">
+                    <h3>TÊNIS MASCULINO PURPOSE</h3>
+                    <p class="rate">&#9733;&#9733;&#9733;&#9734;&#9734;</p>  <!-- estrela -->
+                    <P class="product-price"><span>R$</span> 249,90 </p>
+                        <a href="produtos.html" onclick="showProduct(2)">informações</a>
+                      
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+                <a href="">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="./img/tenis03/tenis_amarelo.webp" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/tenis03/tenis_azul.webp" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/tenis03/tenis_branco.webp" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/tenis03/tenis_preto.webp" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                      </div>
+                </a>
+                <div class="card-info">
+                    <h3>TÊNIS MASCULINO BRAND</h3>
+                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+                    <P class="product-price"><span>R$</span> 289,90 </p>
+                        <a href="produtos.html" onclick="showProduct(3)">informações</a>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="card">
+                <a href="">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="./img/tenis04/azul_escuro.avif" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/tenis04/branco.avif" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/tenis04/branco_e_verde.avif" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/tenis04/branco_e_vermelho.avif" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/tenis04/cinza_e_azul.avif" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/tenis04/marrom.avif" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/tenis04/prata_e_azul.avif" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/tenis04/preto.avif" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                      </div>
+                </a>
+                <div class="card-info">
+                    <h3>Tênis Nike Air Max SC Masculino</h3>
+                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+                    <P class="product-price"><span>R$</span> 531,90 </p>
+                        <a href="produtos.html" onclick="showProduct(4)">informações</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cards inferiores -->
+        <div class="card-container">
+            <!-- Card 5 -->
+            <div class="card">
+                <a href="">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="./img/tenis05/laranja.avif" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/tenis05/azul.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/tenis05/branco_azul.webp" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/tenis05/aqua.webp" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/tenis05/verde.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                      </div>
+                </a>
+                <div class="card-info">
+                    <h3>Nike Air Max Plus III</h3>
+                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+                    <P class="product-price"><span>R$</span> 1490,90 </p>
+                        <a href="produtos.html" onclick="showProduct(5)">informações</a>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="card">
+                <a href="">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="./img/tenis06/azul.avif" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/tenis06/branco.webp" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/tenis06/branco_rosa.webp" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item active">
+                            <img src="./img/tenis06/preto_verde.avif" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/tenis06/roxo.webp" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/tenis06/vermelho.webp" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                      </div>
+                </a>
+                <div class="card-info">
+                    <h3>Nike TN Air Max Plus GS Black Red</h3>
+                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                    <P class="product-price"><span>R$</span> 1550,90 </p>
+                        <a href="produtos.html" onclick="showProduct(6)">informações</a>
+                </div>
+            </div>
+
+            <!-- Card 7 -->
+            <div class="card">
+                <a href="">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="./img/tenis07/bege.jpeg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/tenis07/rosa.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          
+                        </div>
+                      </div>
+                </a>
+                <div class="card-info">
+                    <h3>SANDALIA MELISA</h3>
+                    <p class="rate">&#9733;&#9733;&#9733;&#9734;&#9734;</p>
+                    <P class="product-price"><span>R$</span> 111,93 </p>
+                        <a href="produtos.html" onclick="showProduct(7)">informações</a>
+                </div>
+            </div>
+
+            <!-- Card 8 -->
+            <div class="card">
+                <a href="">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="./img/tenis08/cinza.webp" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/tenis08/branco.webp" class="d-block w-100" alt="...">
+                          </div>
+                          
+                        </div>
+                      </div>
+                </a>
+                <div class="card-info">
+                    <h3>Tênis Puma X-Ray 2 Square BDP</h3>
+                    <p class="rate">&#9733;&#9733;&#9733;&#9734;&#9734;</p>
+                    <P class="product-price"><span>R$</span> 499,90 </p>
+                        <a href="produtos.html" onclick="showProduct(8)">informações</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 DU pé calçados. Todos os direitos reservados.</p>
+        <p>Contato: dupecalcados@example.com | Telefone: (00) 1234-5678</p>
+        <div>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+
+    
+    <script src="script.js"></script>
+
+</body>
+
+</html>

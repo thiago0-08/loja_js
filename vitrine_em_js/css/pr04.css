@@ -1,0 +1,32 @@
+
+   /* Adicione este estilo ao seu arquivo de estilo CSS */
+
+.color-selector {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-colors,
+.bottom-colors {
+    display: flex;
+    flex-wrap: wrap; 
+    
+}
+
+.color-button {
+    margin-bottom: 5px; 
+    margin-right: 10px; 
+    width: 80px; 
+    text-align: center; 
+    padding: 8px; 
+    border: none; 
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+
+.color-button:hover {
+    background-color: #cccccc; /* Altera a cor de fundo do botao quando passa o mouse */
+}
